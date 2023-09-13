@@ -31,10 +31,33 @@ section#telefone{
     background-attachment: scroll;
 }
 
-iframe{
+iframe#tela{
     position: relative;
-    top: 71.3px;
-    left: 13px;
-    width: 21vw;
-    height: 73vh;
+    top: 79px;
+    left: 21px;
+    width: 269px;
+    height: 473px;
+}
+
+#redes-sociais{
+    text-align: right;
+}
+
+.botao img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 5px 6px 9px #0000006c;
+    box-sizing: border-box;
+}
+
+section img:hover{
+    box-shadow: 3px 6px 6px #0000007c;
+    border: 2px solid #ffffff60;
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s, border 0.2s;
+}
+
+section#redes-sociais img:active{
+    transform: scale(86%);
 }
